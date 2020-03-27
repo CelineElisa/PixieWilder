@@ -293,9 +293,11 @@ footer {
   width: 100%;
 }
 
+
 .footerBar {
   list-style-type: none;
 }
+
 
 .footerBar li a {
   padding: 20px;
