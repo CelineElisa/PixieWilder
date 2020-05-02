@@ -232,9 +232,9 @@ section {
 }
 
 .image {
- /* background-size: cover;*/
-  /*width: 300px;
-  height: 400px;*/
+ background-size: cover;
+  width: 300px;
+  height: 400px;
   }
   
 .bgd1{
@@ -347,12 +347,12 @@ h2:hover{
                         transform: rotate(360deg);
       }
       
+      
       #slider{
         height: 250px;
         width: 350px;
         margin: 0 auto;
       }
-
       .image {
         height: 250px;
         width: 350px;
@@ -365,8 +365,19 @@ h2:hover{
         flex-direction: row;
       }
       .carousel {
+        height: 400px;
+        width: 600px;
         margin: 100px 40px 40px 40px;
         /*width: 300%;*/
+      }
+      #slider{
+        height: 400px;
+        width: 600px;
+        margin: 0 auto;
+      }
+      .image {
+        height: 400px;
+        width: 600px;
       }
 
       .artist-link {

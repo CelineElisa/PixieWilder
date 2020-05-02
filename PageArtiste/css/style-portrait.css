@@ -86,26 +86,27 @@ figure .photo
 
 .btn{
     width: 80%;
-    display: block;
+    display: flex;
+    justify-content: center;
     margin: auto;
     background-color:#cce8ea;
     text-align: center;
     padding-bottom: 30px;
+    
 }
+
 
 .btn-contact{
     text-decoration: none;
-}
-
-.btn-contact{
     display: block;
     margin: auto;
     background-color:#FC4C02;
     color: #fff;
     height: 50px;
-    width: 120px;
+    width: 130px;
     border-radius:50px;
     padding:5px;
+    font-size:20px;
 }
 
 .btn-contact:hover{
@@ -256,6 +257,10 @@ figure img{
 
 /* Style the Image Used to Trigger the Modal */
 #myImg, #myImg2 {
+    -webkit-filter: grayscale(100%); /* Pour les navigateurs Chrome, Safari, Opera */
+    filter: grayscale(100%); /* Firefox */
+    height: 500px;
+    width: 350px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
